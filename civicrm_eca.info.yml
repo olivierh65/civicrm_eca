@@ -1,5 +1,8 @@
 name: 'Civicrm ECA'
 type: module
-description: '@todo Add description.'
-package: '@todo Add package'
-core_version_requirement: ^10
+description: 'Civicrm / ECA Integration. Add some conditions and actions related to Civicrm'
+package: 'Workflow'
+core_version_requirement: ^10.3 || ^11
+dependencies:
+  - civicrm_entity:civicrm_entity
+  - eca:eca
