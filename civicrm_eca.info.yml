@@ -1,7 +1,7 @@
 name: 'Civicrm ECA'
 type: module
 description: 'Civicrm / ECA Integration. Add some conditions and actions related to Civicrm'
-package: 'Workflow'
+package: 'CiviCRM'
 core_version_requirement: ^10.3 || ^11
 dependencies:
   - civicrm_entity:civicrm_entity
